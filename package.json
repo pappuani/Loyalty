@@ -1,0 +1,22 @@
+{
+  "name": "loyalty-module-automation",
+  "version": "1.0.0",
+  "description": "Playwright Automation for Loyalty Module in Cafe QR Admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:programs": "playwright test tests/loyalty-programs.spec.ts",
+    "test:transactions": "playwright test tests/loyalty-transactions.spec.ts",
+    "test:e2e": "playwright test tests/loyalty-e2e.spec.ts",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "test-automation", "loyalty", "cafe-qr"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
